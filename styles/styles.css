@@ -1142,26 +1142,19 @@ body {
   background-repeat: no-repeat;
 }
 
-.decorative-house-link {
-  display: inline-block;
-  width: 12px;
-  height: 12px;
-  padding: 3.5px 0 5.5px 0.5px;
-  background-image: url("../images/catalog/breadcrumbs-house.svg");
-  background-position: left;
-  background-repeat: no-repeat;
-}
-
 .breadcrumbs-link {
   font-size: 16px;
+  color: #ffffff;
 }
 
-.breadcrumbs-link[href]:hover {
+.breadcrumbs-link[href]:hover,
+.decorative-house-link:hover {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.breadcrumbs-link[href]:active {
-  color: rgba(255, 255, 255, 0.6);
+.breadcrumbs-link[href]:active,
+.decorative-house-link:active {
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .catalog-filter {
