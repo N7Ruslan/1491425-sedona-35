@@ -1152,8 +1152,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.breadcrumbs-link[href]:active,
-.decorative-house-link:active {
+.breadcrumbs-link[href]:active {
   color: rgba(255, 255, 255, 0.3);
 }
 
