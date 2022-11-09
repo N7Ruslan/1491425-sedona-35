@@ -1147,8 +1147,7 @@ body {
   color: #ffffff;
 }
 
-.breadcrumbs-link[href]:hover,
-.decorative-house-link:hover {
+.breadcrumbs-link[href]:hover {
   color: rgba(255, 255, 255, 0.6);
 }
 
